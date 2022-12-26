@@ -1,0 +1,165 @@
+/* HTML Tags */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+img{
+    width:100%;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+p{
+    color: white;
+}   
+
+/* ID's */
+#main{
+    text-align: right;
+    position: relative;
+}
+
+#main1{
+    text-align: left;
+    position: relative;
+}
+#features{
+    background-color: black;
+    position: relative;
+}
+
+/* Classes */
+.conq{
+    display: block;
+    color: #FED049;
+    font-size: 5rem;
+}
+.maincont{
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    font-size: 3rem;
+}
+.info{
+    position: absolute;
+    bottom: 1px;
+}
+.land{
+    font-size: 3rem;
+    display: block;
+    color: #FED049;
+}
+.maincont1{
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    font-size: 3rem;
+}
+.l{
+    background-color: black;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+}
+.our{
+    font-size: 2rem;
+}
+.per{
+    padding-top: 70px;
+    margin-top: 80px;
+}
+.row-1{
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+}
+.feature-box{
+    padding: 7%;
+    text-align: center;
+}
+.icon{
+    color: #FED049;
+    margin: 3rem;
+    font-size: 70px;
+}
+.contact{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(V.jpg);
+    background-position: 50% 50%;
+}
+.in{
+    font-size: 1rem;
+}
+
+.social-icons{
+    margin: 20px 10px;
+    font-size: 1rem;
+    color: white;
+}
+.inputs{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: none;
+}
+.credit{
+    background-color: #333333;
+    color: white;
+}
+/* containers */
+.container-fluid{
+    padding: 0 !important;
+}
+/* Media queries */
+
+@media (max-width:500px) {
+    .row{
+        font-size: 8px;
+    }
+    .c{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .row{
+        font-size: 8px;
+        padding: 10px;
+    }
+    .c{
+        font-size: 5px;
+    }
+    .land{
+        font-size: 1.5rem;
+    }
+    .our{
+        font-size: 1rem;
+    }
+    .icon{
+        font-size: 30px;
+        margin: 0.5rem;
+    }
+    .maincont1{
+        position: relative;
+        text-align: center;
+        right: 0;
+        top: 10px;
+    }
+    .maincont{
+        font-size: 1.5rem;
+    }
+    .conq{
+        font-size: 2rem;
+    }
+    .l{
+        padding:0;
+        border-radius: 0;
+    }
+    .row-cols-2>* {
+        width: 100% !important;
+    }
+}
